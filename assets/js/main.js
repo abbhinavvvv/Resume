@@ -4,6 +4,14 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+ const image = document.getElementById('x.jpg');
+
+    function adjustImageSize() {
+      image.style.width = '100%';
+    }
+    
+    window.addEventListener('load', adjustImageSize);
+    window.addEventListener('resize', adjustImageSize);
 !(function($) {
   "use strict";
 
