@@ -198,9 +198,8 @@ h1, h2, h3, h4, h5, h6 {
   background: url("../img/x.jpg") top center;
   background-size: cover;
   display: block;
-  margin: 10;
-  padding: auto;
   object-fit: contain;
+  position: relative;
   
 }
 
@@ -243,20 +242,13 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 3px solid #173b6c;
 }
 
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
-@media (max-width: 767px) {
-  #hero {
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-  }
-}
 @media (max-width: 768px) {
-  #hero h1 {
+  #hero {
+    background-attachment:scroll;
+    background-position: center;
+    backeground-size:cover;
+  }
+  #hero h1{
     font-size: 28px;
     line-height: 36px;
   }
